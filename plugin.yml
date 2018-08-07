@@ -1,0 +1,9 @@
+name: SurvivalGames
+main: me.ItsJasonn.SurvivalGames.Main.Core
+version: 0.1
+author: BGHDDevelopment
+commands:
+ Hub:
+  description: Teleport to the main hub
+ SG:
+  description: Show a Survival Games help page
