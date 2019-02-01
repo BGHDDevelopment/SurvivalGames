@@ -1,6 +1,6 @@
-name: SurvivalGames
+name: SurvivalGamesBGHD
 main: me.ItsJasonn.SurvivalGames.Main.Core
-version: 0.1
+version: 0.2
 author: BGHDDevelopment
 commands:
  Hub:

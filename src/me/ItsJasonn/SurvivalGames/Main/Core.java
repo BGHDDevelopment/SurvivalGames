@@ -1,6 +1,8 @@
 package me.ItsJasonn.SurvivalGames.Main;
 
 import java.util.ArrayList;
+
+import me.ItsJasonn.SurvivalGames.MetricsLite;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.World;
@@ -27,6 +29,7 @@ public class Core extends JavaPlugin implements PluginMessageListener {
 		Bukkit.getConsoleSender().sendMessage(ChatColor.GOLD + "- If an error occurs you are supposed to contact the developer and DO NOT try out things yourself.");
 		Bukkit.getConsoleSender().sendMessage(ChatColor.GOLD + "- Report bugs to the developer if there are any.");
 		Bukkit.getConsoleSender().sendMessage(ChatColor.GOLD + "-----------=========================-----------");
+		MetricsLite metrics = new MetricsLite(this);
 
 		getCommand("Hub").setExecutor(new Hub());
 		getCommand("SG").setExecutor(new SG());
