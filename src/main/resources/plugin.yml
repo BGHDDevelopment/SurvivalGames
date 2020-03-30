@@ -1,0 +1,9 @@
+name: SurvivalGamesBGHD
+version: ${project.version}
+main: me.itsjasonn.survivalgames.main.Core
+authors: [BGHDDevelopment]
+commands:
+  Hub:
+    description: Teleport to the main hub
+  SG:
+    description: Show a Survival Games help page
